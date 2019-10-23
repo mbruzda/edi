@@ -22,4 +22,11 @@
 		<phone type="work">6660611</phone>
 		<notes>my best friend</notes>
 	</contact>
+	<contact>
+		<name>Marcin</name>
+		<name>Michał</name>
+		<surname>Bruzda</surname>
+		<email> type="Personal">marcin.bru@op.pl</email>
+		<phone> type="home">501875692</phone>
+	</contact>	
 </contacts>

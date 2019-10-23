@@ -1,0 +1,20 @@
+<films>
+    <film>
+        <name>Skazani na Shawshank</name>
+        <gatunek>Dramat</gatunek>
+        <rok>1994</rok>
+        <ocena>8.8</ocena>
+    </film>
+    <film> 
+        <name>Ojciec Chrzestny</name>
+        <gatunek>Dramat</gatunek>
+        <rok>1972</rok>
+        <ocena>8.6</ocena>
+    </film>
+    <film>
+        <name>Podziemny krag</name>
+        <gatunek>Dramat</gatunek>
+        <rok>1999</rok>
+        <ocena>8.3</ocena>
+    </film>
+</films>
