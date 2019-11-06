@@ -8,10 +8,17 @@
 		<h1>Try to guess</h1>
 
 		<script>
-			// read user's number (popup window)
+			var r = parseInt(prompt("Zgadnij liczbe z zakresu 1 do 5"))
+			var random = Math.floor(Math.random()* 5 ) + 1
 			
 			// create a random number
-			
+			if(r == random){
+				console.log(random)
+				alert("Zgades!");
+			} 
+			else {
+				alert("Nie zgadles");
+			}
 			// compare the numbers
 			
 			// show results (popup window)
