@@ -8,9 +8,20 @@
 		<h3>Sticks and stones may break my bones, but words will never harm me.</h3>
 		<script>
 			// a JavaScript code here ...
-			
+			let string = 'Kije i kamienie kości mi połamią, ale twoje słowa nigdy mnie nie zranią.'
+			function polish(){
+				
+				h3.firstChild.nodeValue = string
+				
+			}
+			function english(){
+				h3.firstChild.nodeValue = "Sticks and stones may break my bones, but words will never harm me."
+			}
+			let h3 = document.querySelector('h3')
+			h3.addEventListener('mouseover',polish)
+			h3.addEventListener('mouseout',english)
 			// Translation:
-			// Kije i kamienie kości mi połamią, ale twoje słowa nigdy mnie nie zranią
+			
 			
 		</script>
 	</body>
