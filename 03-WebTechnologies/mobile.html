@@ -6,7 +6,25 @@
 	</head>
 	<body>
 		<h1>Create mobile phone</h1>
+		<button onclick="n();" >click</button>
 		<script>
+			var phone= {
+					manufacturer:'Samsung',
+					model:'Galaxy S8+',
+					year: 2017,
+					specs: {TouchScreen: true, CPU:'Samsung Exynos 8895', GPU:' ARM Mali-G71 MP20 '},
+					CPU:['Samsung Exynos 8890','clock: 2.30 GHz','cores:8']
+					
+				};
+					function n(){
+						//alert(phone.manufacturer+'\n '+phone.model+'\n '+phone.year+'\n '+phone.specs+'\n '+phone.CPU);
+						alert(phone.manufacturer+'\n '+phone.model+'\n '+phone.year+'\n Touchscreen:'+phone.specs.TouchScreen+'\n '+phone.specs.GPU+'\n '+phone.CPU);
+						//alert(phone.model);
+						//alert(phone.year);
+						//alert(phone.specs);
+						//alert(phone.CPU);
+					}
+			
 		</script>
 	</body>
 </html>
